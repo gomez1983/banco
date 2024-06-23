@@ -22,4 +22,11 @@ func main() {
 	fmt.Println(contaDaBruna)
 	fmt.Println(contaDaCarol)
 
+	var contaDaCris *ContaCorrente
+	contaDaCris = new(ContaCorrente)
+	contaDaCris.titular = "Cris"
+	contaDaCris.saldo = 500
+
+	fmt.Println(*contaDaCris)
+
 }
